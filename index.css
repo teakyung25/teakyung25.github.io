@@ -39,8 +39,8 @@ html, body{
 
 #connect{
   position: fixed;
-  right:-50px;
-  bottom:100px;
+  right:-100px;
+  bottom:150px;
   z-index: 2;
   text-decoration: none;
   display: inline-block;
