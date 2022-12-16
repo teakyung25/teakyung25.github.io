@@ -39,7 +39,7 @@ html, body{
 
 #connect{
   position: fixed;
-  right:100px;
+  right:- 70px;
   bottom:150px;
   z-index: 2;
   text-decoration: none;
