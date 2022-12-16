@@ -39,8 +39,8 @@ html, body{
 
 #connect{
   position: fixed;
-  right:- 70px;
-  bottom:150px;
+  right: -70px;
+  bottom: 100px;
   z-index: 2;
   text-decoration: none;
   display: inline-block;
@@ -83,14 +83,19 @@ html, body{
 }
 
 #arrow{
-  position: absolute;
-  bottom: 20px;
-  right: 50%;
-  transform: translate(-50%,0);
-  animation: float 2s ease-in-out infinite;
-  color: white;
+    position: absolute;
+    bottom: 10px;
+    animation: float 2s ease-in-out infinite;
+    color: white;
+    font-size: 50px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
 }
-
+#arrow:hover{
+	color: green;
+}
 h1{
   margin:0;
 }
